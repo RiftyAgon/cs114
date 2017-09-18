@@ -46,15 +46,11 @@ choose to wiggle away. Which do you pick? 1. wiggle away 2. enter cave")
 
     print("type choice")
     x = input()
-    if (x == "wiggle away") == False:
+    if (x == "enter cave") == True:
             print("you proceed")
     else:
         one_fail()
         game_over()
-
-
-
-
 
 def second_encounter():
     print("You wiggle into the cave, watching the burning fire inside. To your \
@@ -62,12 +58,11 @@ right is a very grumpy orange dragon with a silver chest. He seems a tad \
 cross over his home being invaded. You weigh your options. A blep is your \
 standard greeting, maybe that will show the drake that you are a friend. \
 You could fight the dragon, maybe your skills in ranged magic would defeat \
-him. You do feel your loins tighten, maybe he’d be fine with you bending \
-him over. You can either 1. blep the dragon 2. fight the dragon")
+him. You can either 1. blep the dragon 2. fight the dragon")
 
     print("type choice")
     x = input()
-    if (x == "fight the dragon") == False:
+    if (x == "blep the dragon") == True:
              print("it worked!")
     else:
         two_fail()
@@ -89,7 +84,7 @@ give him a hug. \
 
     print("type choice")
     x = input()
-    if (x == "walk away") == False:
+    if (x == "hug him") == True:
              print("Aww! Cute!")
     else:
         three_fail()
@@ -105,7 +100,7 @@ You can either bang the dragon, or turn him away. \
 
     print("type choice")
     x = input()
-    if (x == "don't bang him") == False:
+    if (x == "bang him") == True:
              print("You and Rift engage in a passionate \
 love making session and you giggle at how derpy he is. \
 You two are now officially mates. Congrats, you have a \
